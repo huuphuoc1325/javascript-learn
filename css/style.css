@@ -36,11 +36,10 @@ body{
 .header{
     background-image: linear-gradient(to right bottom, rgba(142, 158, 252, .6) ,rgba(28, 62, 255, .6)),
     url('../img/background.jpg');
-    
     background-size: cover;
     background-position: top;
     position: relative;
-    height: 80vh;
+    height: 90vh;
 }
 .header__logo-box{
     position: absolute;
