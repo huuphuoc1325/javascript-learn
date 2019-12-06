@@ -1,0 +1,42 @@
+/* COLOR
+    lightblue: #8e9efc
+    mediumblue: #5a73fc
+    darkblue: #1c3eff
+*/
+/* Hole file */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Lato', sans-serif;
+    font-size: 10pt;
+    font-weight: 400;
+    line-height: 1.7;
+    color: #777777;
+    padding: 2vw;
+}
+.header{
+    background-image: linear-gradient(to right bottom, rgba(142, 158, 252, .6) ,rgba(28, 62, 255, .6)),
+    url('../img/background.jpg');
+    background-size: cover;
+    background-position: top;
+    position: relative;
+    height: 80vh;
+}
+.header__logo-box{
+    position: absolute;
+    height: 5vw;
+    width: auto;
+}
+.header__logo-box img{
+    width: 5vw;
+    height: auto;
+}
+.header__text-box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
