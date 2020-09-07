@@ -42,3 +42,26 @@
         background-color: $color-white;
     }
 }
+
+.btn-text{
+    &:link,
+    &:visited{
+        color: $color-primary;
+        display: inline-block;
+        text-decoration: none;
+        border-bottom: 2px solid $color-primary;
+        padding: 0.3rem;
+        font-size: $default-font-size;
+    }
+
+    &:hover{
+        background-color: $color-primary;
+        color: $color-white;
+        box-shadow: 0 1rem 2rem rgba($color-black, $alpha: 0.15);
+        transform: translatey(-0.3rem);
+    }
+    &:active{
+        transform: translateY(0);
+    }
+    transition: all 0.2s;
+}

@@ -6,11 +6,16 @@
     height: 90vh;
     clip-path: ellipse(78% 76% at 48% 20%);
 
+    
+
     &__text-box {
         position: absolute;
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
+
+        animation-name: easeinout;
+        animation-duration: 1s;
     }
 
     &__logo-box {
